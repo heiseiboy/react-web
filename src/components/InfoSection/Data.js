@@ -7,8 +7,8 @@ export const homeObjOne = {
   headline: "Unlimited Transaction with zero fees",
   description: "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
   buttonLabel: 'Get started',
-  imgStart: false,
-  img: require('../../images/png2.png'),
+  imgStart: true,
+  img: require('../../images/svg-1.svg').default,
   alt: "Car",
   dark: true,
   primary: true,
@@ -16,8 +16,8 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-  id: 'about',
-  lightBg: false,
+  id: 'discover',
+  lightBg: true,
   lightText: true,
   lightTextDesc: true,
   topLine: 'Premium Bank',
@@ -25,14 +25,14 @@ export const homeObjTwo = {
   description: "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
   buttonLabel: 'Get started',
   imgStart: false,
-  img: require('../../images/png1.png'),
+  img: require('../../images/svg-3.svg').default,
   alt: "Car",
-  dark: true,
+  dark: false,
   primary: true,
-  darkText: false
+  darkText: true
 }
 export const homeObjThree = {
-  id: 'about',
+  id: 'services',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -41,7 +41,7 @@ export const homeObjThree = {
   description: "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
   buttonLabel: 'Get started',
   imgStart: false,
-  img: require('../../images/png3.png'),
+  img: require('../../images/svg-2.svg').default,
   alt: "Car",
   dark: true,
   primary: true,

@@ -15,11 +15,10 @@ import {
 } from './InfoElements'
 
 import { Button } from '../ButtonElements'
-// import png2 from '../../images/png2.png'
 
 const InfoSection = ({
-  lightBg, id, imgStart, topLine, lightText, headline, description,
-  darkText, buttonLabel , alt, img , dark, dark2, primary}) => {
+  img ,lightBg, id, imgStart, topLine, lightText, headline, description,
+  darkText, buttonLabel , alt , dark, dark2, primary}) => {
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -47,7 +46,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={img} alt={alt}/>
+                <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>
