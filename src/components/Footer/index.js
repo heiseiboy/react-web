@@ -16,7 +16,14 @@ import {
   WebsiteRights
 } from './FooterElements'
 
+import {animateScroll as scroll} from 'react-scroll'
+
 const Footer = () => {
+
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  }
+
   return (
     <FooterContainer>
       <FooterWrap>
@@ -50,7 +57,7 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">
+            <SocialLogo to="/" onClick={toggleHome}>
               Mamo
             </SocialLogo>
             <WebsiteRights>Mamo ©︎ {new Date().getFullYear()}
